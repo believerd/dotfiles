@@ -1,0 +1,13 @@
+clear Mod1 
+clear Mod4
+clear lock
+remove lock = Control_L
+
+keycode  64 = Super_L NoSymbol Super_L NoSymbol Super_L
+keycode  66 = Control_L NoSymbol Control_L NoSymbol Control_L 
+keycode 108 = Escape NoSymbol Escape NoSymbol Escape
+keycode 133 = Alt_L Meta_L Alt_L Meta_L Alt_L Meta_L
+
+add Mod1 = Alt_L
+add Mod4 = Super_L
+add control = Control_L
